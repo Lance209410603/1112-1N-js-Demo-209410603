@@ -1,220 +1,189 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Mega Menu</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="css/style_99.css" />
-  </head>
+<head>
+	<title>Mega Menu</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/style_03.css">
 
-  <body>
-    <!-- header start -->
-    <header class="header">
-      <div class="container">
-        <div class="row v-center">
-          <div class="header-item item-left">
-            <div class="logo">
-              <a href="#">TKUdemo</a>
-            </div>
-          </div>
-          <!-- menu start here -->
-          <div class="header-item item-center">
-            <div class="menu-overlay"></div>
-            <nav class="menu">
-              <div class="mobile-menu-head">
-                <div class="go-back"><i class="fa fa-angle-left"></i></div>
-                <div class="current-menu-title"></div>
-                <div class="mobile-menu-close">&times;</div>
-              </div>
-              <ul class="menu-main">
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li class="menu-item-has-children">
-                  <a href="#">New <i class="fa fa-angle-down"></i></a>
-                  <div class="sub-menu mega-menu mega-menu-column-4">
-                    <div class="list-item text-center">
-                      <a href="#">
-                        <img src="img/p1.jpg" alt="new Product" />
-                        <h4 class="title">Product 1</h4>
-                      </a>
-                    </div>
-                    <div class="list-item text-center">
-                      <a href="#">
-                        <img src="img/p2.jpg" alt="new Product" />
-                        <h4 class="title">Product 2</h4>
-                      </a>
-                    </div>
-                    <div class="list-item text-center">
-                      <a href="#">
-                        <img src="img/p3.jpg" alt="new Product" />
-                        <h4 class="title">Product 3</h4>
-                      </a>
-                    </div>
-                    <div class="list-item text-center">
-                      <a href="#">
-                        <img src="img/p4.jpg" alt="new Product" />
-                        <h4 class="title">Product 4</h4>
-                      </a>
-                    </div>
-                  </div>
-                </li>
-                <li class="menu-item-has-children">
-                  <a href="#">Class Demo <i class="fa fa-angle-down"></i></a>
-                  <div class="sub-menu mega-menu mega-menu-column-4">
-                    <div class="list-item">
-                      <h4 class="title">Week 1~6</h4>
-                      <ul>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w1')"
-                            >Unconv. Calculator (w1)</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w2')"
-                            >TicTacToe (w2)</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w3')"
-                            >Review (w3)</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w4')"
-                            >Menu - 1 (w4)</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w5')"
-                            >Menu -2 (w5)</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w6-1')"
-                            >Array (console) (w6)_P1</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w6-2')"
-                            >Array (console) (w6)_P2</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w6-3')"
-                            >Array (console) (w6)_P3</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="list-item">
-                      <h4 class="title">Midprep Exam (w7)</h4>
-                      <ul>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w7-1')"
-                            >P1 - BMI</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w7-2')"
-                            >P2 - Counter</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w7-3')"
-                            >P3 - Tours</a
-                          >
-                        </li>
-                      </ul>
-                      <h4 class="title">Midterm Exam</h4>
-                      <ul>
-                        <li><a href="#" onclick="showClassDemo('')">P1</a></li>
-                        <li><a href="#" onclick="showClassDemo('')">P2</a></li>
-                        <li><a href="#" onclick="showClassDemo('')">P3</a></li>
-                        <li><a href="#" onclick="showClassDemo('')">P4</a></li>
-                      </ul>
-                    </div>
-                    <div class="list-item">
-                      <h4 class="title">Week 11~17</h4>
-                      <ul>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w11')">W11</a>
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w12')">W12</a>
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w13')">W13</a>
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w14')">W14</a>
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w15')">W15</a>
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w16')">W16</a>
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w17')">W17</a>
-                        </li>
-                        <li>
-                          <a href="#" onclick="showClassDemo('w18')">W18</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="list-item">
-                      <img src="img/shop1.jpg" alt="shop" />
-                    </div>
-                  </div>
-                </li>
-                <li class="menu-item-has-children">
-                  <a href="#">Blog <i class="fas fa-angle-down"></i></a>
-                  <div class="sub-menu single-column-menu">
-                    <ul>
-                      <li><a href="#">Standard Layout</a></li>
-                      <li><a href="#">Grid Layout</a></li>
-                      <li><a href="#">single Post Layout</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="menu-item-has-children">
-                  <a href="#">Pages <i class="fas fa-angle-down"></i></a>
-                  <div class="sub-menu single-column-menu">
-                    <ul>
-                      <li><a href="#">Login</a></li>
-                      <li><a href="#">Register</a></li>
-                      <li><a href="#">Faq</a></li>
-                      <li><a href="#">404 Page</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li>
-                  <a href="#">Contact</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <!-- menu end here -->
-          <div class="header-item item-right">
-            <a href="#"><i class="fas fa-search"></i></a>
-            <a href="#"><i class="far fa-heart"></i></a>
-            <a href="#"><i class="fas fa-shopping-cart"></i></a>
-            <!-- mobile menu trigger -->
-            <div class="mobile-menu-trigger">
-              <span></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- header end -->
+</head>
+<body>
+ 
+ <!-- header start -->
+ <header class="header">
+ 	<div class="container">
+ 		<div class="row v-center">
+ 			<div class="header-item item-left">
+ 				<div class="logo">
+ 					<a href="#">TKUdemo</a>
+ 				</div>
+ 			</div>
+ 			<!-- menu start here -->
+ 			<div class="header-item item-center">
+ 				<div class="menu-overlay">
+ 				</div>
+ 				<nav class="menu">
+ 					<div class="mobile-menu-head">
+ 						<div class="go-back"><i class="fa fa-angle-left"></i></div>
+ 						<div class="current-menu-title"></div>
+ 						<div class="mobile-menu-close">&times;</div>
+ 					</div>
+ 					<ul class="menu-main">
+ 						<li>
+ 							<a href="#">Home</a>
+ 						</li>
+ 						<li class="menu-item-has-children">
+ 							<a href="#">New <i class="fa fa-angle-down"></i></a>
+ 							<div class="sub-menu mega-menu mega-menu-column-4">
+ 								<div class="list-item text-center">
+ 									<a href="#">
+ 									<img src="img/p1.jpg" alt="new Product">
+ 									<h4 class="title">Product 1</h4>
+ 									</a>
+ 								</div>
+ 								<div class="list-item text-center">
+ 									<a href="#">
+ 									<img src="img/p2.jpg" alt="new Product">
+ 									<h4 class="title">Product 2</h4>
+ 									</a>
+ 								</div>
+ 								<div class="list-item text-center">
+ 									<a href="#">
+ 									<img src="img/p3.jpg" alt="new Product">
+ 									<h4 class="title">Product 3</h4>
+ 									</a>
+ 								</div>
+ 								<div class="list-item text-center">
+ 									<a href="#">
+ 									<img src="img/p4.jpg" alt="new Product">
+ 									<h4 class="title">Product 4</h4>
+ 								   </a>
+ 								</div>
+ 							</div>
+ 						</li>
+ 						<li class="menu-item-has-children">
+ 							<a href="#">class Demo <i class="fa fa-angle-down"></i></a>
+ 							<div class="sub-menu mega-menu mega-menu-column-4">
+                               <div class="list-item">
+                               	  <h4 class="title">Week1~6</h4>
+                               	  <ul>
+                               	  	 <li><a href="#" onclick="showClassDemo('w1')">Unconv. Calculator</a>
+										 <a href="#" onclick="showClassDemo('w1-md')">(w1-md)</a>
+									</li>
+                               	  	 <li><a href="#" onclick="showClassDemo('w2')">TicTacToe</a>
+										<a href="#" onclick="showClassDemo('w2-md')">(w2-md)</a>
+									</li>
+                               	  	 <li><a href="#" onclick="showClassDemo('w3')">Review</a>
+										<a href="#" onclick="showClassDemo('w3-md')">(w3-md)</a>									
+								    </li>
 
-    <!-- banner start -->
-    <section class="banner-section"></section>
-    <!-- banner end -->
+                               	  	 <li><a href="#" onclick="showClassDemo('w4')">Menu</a>
+										<a href="#" onclick="showClassDemo('w4-md')">(w4-md)</a>
+									</li>
+                               	  	 <li><a href="#" onclick="showClassDemo('w5-1')">Menu-2</a>
+										<a href="#" onclick="showClassDemo('w5-md')">(w5-md)</a>
+									</li>
+									 <li><a href="#" onclick="showClassDemo('w5-2')">Modal</a>
+										<a href="#" onclick="showClassDemo('w5-md')">(w5-md)</a>
+									</li>
+									</li><a href="#" onclick="showClassDemo('w6')">Temp Convert</a>
+										<a href="#" onclick="showClassDemo('w6-md')">(w6-md)</a>
+									</li>
+                               	  </ul>
+                               	  <h4 class="title">Midprep Exam (w7)</h4>
+                               	  <ul>
+                               	  	 <li><a href="#" onclick="showClassDemo('p1')">P1 - BMI</a>
+										<a href="#" onclick="showClassDemo('w9-md')">(w9-md)</a>
+									</li>
+                               	  	 <li><a href="#" onclick="showClassDemo('p2')">P2 - Counter</a>
+										<a href="#" onclick="showClassDemo('w9-md')">(w9-md)</a>
+									</li>
+                               	  	 <li><a href="#" onclick="showClassDemo('p3')">p3 - Tours</a>
+										<a href="#" onclick="showClassDemo('w9-md')">(w9-md)</a>
+									</li>
+                               	  </ul>
+                               </div>
+                               <div class="list-item">
+                               	<h4 class="title">Midterm Exam(w10)</h4>
+                               	<ul>
+                               	  	 <li><a href="#">P1 </a></li>
+                               	  	 <li><a href="#">P2</a></li>
+                               	  	 <li><a href="#">P3</a></li>
+                               	  	 <li><a href="#">P4</a></li>
+                               	  </ul>
+                               	  <h4 class="title">Week 11~17</h4>
+                               	<ul>
+                               	  	 <li><a href="#">(w11)</a></li>
+                               	  	 <li><a href="#">(w12)</a></li>
+                               	  	 <li><a href="#">(w13)</a></li>
+                               	  	 <li><a href="#" onclick="showClassDemo('p3')">(w14)</a></li>
+									 <li><a href="#" onclick="showClassDemo('w15')">(w15)</a></li>
+									 <li><a href="#">(w16)</a></li>
+									 <li><a href="#">(w17)</a></li>
+                               	  </ul>
+                               </div>
+							   
+                               <div class="list-item">
+                               	 <img src="img/shop1.jpg" alt="shop">
+                               </div>
+ 							</div>
+ 						</li>
+ 						<li class="menu-item-has-children">
+ 							<a href="#">Blog <i class="fas fa-angle-down"></i></a>
+ 							<div class="sub-menu single-column-menu">
+ 								<ul>
+ 									<li><a href="#">Standard Layout</a></li>
+ 									<li><a href="#">Grid Layout</a></li>
+ 									<li><a href="#">single Post Layout</a></li>
+ 								</ul>
+ 							</div>
+ 						</li>
+ 						<li class="menu-item-has-children">
+ 							<a href="#">API Project <i class="fas fa-angle-down"></i></a>
+ 							<div class="sub-menu single-column-menu">
+ 								<ul>
+ 									<li><a href="#">api_93.md</a></li>
+ 									<li><a href="#">P1</a></li>
+ 									<li><a href="#">p2</a></li>
+ 									<li><a href="#">p3</a></li>
+									<li><a href="#">心得甘苦談</a></li>
+ 								</ul>
+ 							</div>
+ 						</li>
+ 						<li>
+ 							<a href="#">Contact</a>
+ 						</li>
+ 					</ul>
+ 				</nav>
+ 			</div>
+ 			<!-- menu end here -->
+ 			<div class="header-item item-right">
+ 				<a href='https://github.com/Jun206/1112-1N-js-209410793' target='_blank'><i class="fab fa-github"></i></a>
+ 				<a href="https://github.com/Jun206/1112-1N-js-209410793/commits" target="_blank"><i class="fab fa-git-alt"></i></a>
+ 				<a href="#"><i class="fas fa-cog"></i></a>
+ 				<!-- mobile menu trigger -->
+ 				<div class="mobile-menu-trigger">
+ 					<span></span>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ </header>
+ <!-- header end -->
 
-    <script src="./js/script_99.js"></script>
-    <script src="./js/classdemo_99.js"></script>
-  </body>
+ <!-- banner start -->
+ <section class="banner-section">
+ 	
+ </section>
+ <!-- banner end -->
+
+<script src="./js/classdemo_93.js"></script>
+<script src="./js/script_93.js"></script>
+<script
+    type="module"
+    src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
+  ></script>
+</body>
 </html>
+
+
